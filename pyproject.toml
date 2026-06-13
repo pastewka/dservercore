@@ -13,14 +13,14 @@ authors = [
 dynamic = ["version"]
 dependencies = [
         "setuptools",
-        "flask<3",
+        "flask>=3",
         "pymongo",
         "alembic",
         "flask-sqlalchemy",
         "flask-migrate",
         "flask-pymongo",
         "flask-marshmallow",
-        "flask-smorest",
+        "flask-smorest>=0.44",
         "marshmallow-sqlalchemy",
         "flask-cors",
         "dtoolcore>=3.18.0",
